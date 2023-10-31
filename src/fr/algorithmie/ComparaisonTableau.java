@@ -10,10 +10,8 @@ public class ComparaisonTableau {
                     for (int j = 0; j <= array2.length-1; j++) {
                         if (array1[i] == array2[j]) {
                             k++;
-
                         }
                     }
-
         }
         System.out.println( k +" Eléments en commun");
     }
